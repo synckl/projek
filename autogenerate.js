@@ -40,8 +40,6 @@ d[k>>>24]^e[n>>>16&255]^j[g>>>8&255]^l[h&255]^c[p++],n=d[n>>>24]^e[g>>>16&255]^j
 * Author : Anas RAR
 * Date	 : 10 April 2019
 * URL 	 : anasrar.github.io
-* Repository : https://github.com/anasrar/NihLink-Safelink-Template-Blogger
-* License : https://github.com/anasrar/NihLink-Safelink-Template-Blogger/blob/master/LICENSE
 *
 */
 var nihlinkgenerate = function(arr, config){
@@ -56,5 +54,5 @@ var nihlinkgenerate = function(arr, config){
     console.log('NihLink Auto Generate');
 }
 // Example
-// nihlinkgenerate(['anasrar.github.io', 'codepen.io'], {url: 'https://nihlink.blogspot.com', page: 'p/lanjut.html', keyit: 'AnasRAR', countdown: true})
+// nihlinkgenerate(['anasrar.github.io', 'codepen.io'], {url: 'https://nihlink.blogspot.com', page: 'p/lanjut.html', keyit: 'synckl', countdown: true})
 // ([blacklist domain in array], {config json})
