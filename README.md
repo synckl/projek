@@ -3,10 +3,10 @@
 <script type="text/javascript">
 var setting = {
 pengecualianstatus : true,
-pengecualian : "google.com,twitter.com,javascript:;,mailto:",
+pengecualian : "javascript:;,mailto:",
 hanyauntukstatus : false,
-hanyauntuk : "githubusercontent.com", //use ::withpath for autolink specific path exampe.com/download/::withpath
-path : "#?o="
+hanyauntuk : "githubusercontent.com",
+path : "#?link="
 };    
 </script>
 <script type="text/javascript" src='https://cdn.statically.io/gh/riedayme/bloggercode/master/js/autoreplacebyfeednew.js'></script>
